@@ -14,16 +14,17 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  padding: 16px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   width: 100%;
+  padding: 16px;
 }
 
 .left-links,
@@ -31,6 +32,14 @@ body {
   display: flex;
   list-style: none;
   gap: 16px;
+}
+
+.left-links {
+  margin: 0 auto 0 16px;
+}
+
+.right-links {
+  margin: 0 16px 0 auto;
 }
 
 .content {
@@ -75,5 +84,9 @@ input {
 
 .link:hover {
   opacity: 0.5;
+}
+
+.footer{
+  background-color: #eeeeee;
 }
 
