@@ -29,7 +29,15 @@ body {
 .left-links,
 .right-links {
   display: flex;
+  list-style: none;
   gap: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 img {
@@ -59,10 +67,5 @@ input {
 
 .link:hover {
   opacity: 0.5;
-}
-
-.left-links,
-.right-links {
-  list-style: none;
 }
 
