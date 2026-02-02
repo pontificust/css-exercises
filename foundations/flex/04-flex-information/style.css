@@ -7,9 +7,27 @@ img {
   height: 100px;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.plant__cards {
+  display: flex;
+  list-style: none;
+  gap: 52px;
+}
+
+.plant__card {
+  text-align: center;
+  flex-basis: 200px;
 }
 
 /* do not edit this footer */
