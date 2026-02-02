@@ -24,3 +24,19 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.link {
+  text-decoration: none;
+  color: #818589;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.left-links,
+.right-links {
+  list-style: none;
+}
+
