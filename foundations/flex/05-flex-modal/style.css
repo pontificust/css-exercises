@@ -25,6 +25,20 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
