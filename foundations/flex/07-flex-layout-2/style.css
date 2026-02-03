@@ -58,11 +58,17 @@ body {
 }
 
 .cards {
+  display: flex;
+  flex-wrap: wrap;
   flex: 1;
+  padding: 48px;
+  gap: 48px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 20px;
+  width: 450px;
 }
